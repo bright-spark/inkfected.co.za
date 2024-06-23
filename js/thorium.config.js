@@ -8,9 +8,9 @@ const kDebugMessagesLevel= 1;
 const kHybridAppsLog = true;
 const kAutoUpdate=false;
 const kShowPreloader=false;
-const kLocalRoot = "http://localhost:8080/thabiso_today/";
+const kLocalRoot = "http://localhost:8080/inkfected_coza/";
 const kMediaRoot = './db/dbassets/';
-const kRemoteHost="https://thabiso.today/";
+const kRemoteHost="https://inkfected.co.za/";
 const kTimeOut =6000;
 const kCrossDomain =false;
 const kAuthMode =0;
@@ -32,7 +32,7 @@ const kAddToHomeScreenIos = true;
 const kAddToHomeScreenMd = true;
 const kSkipButton=true;
 const kSkipButtonText="Skip";
-const kAddToHomeScreenTitle="TK";
+const kAddToHomeScreenTitle="Ink Fected";
 const kAddToHomeScreenMdText="Save to desktop now";
 const kAddToHomeScreenIosText="Save to home screen now";
 const kImgMaxSize=10;
@@ -120,13 +120,13 @@ if (document.location.search.indexOf('theme=') >= 0) {
 }
 var app = new Framework7({
     "version": "1.0.4",
-    "id": "today.thabiso",
+    "id": "za.co.inkfected",
     "root": "#app",
     "theme": theme,
     "autoDarkTheme": false,
     "language": "en",
     "routes": routes,
-    "name": "TK",
+    "name": "Ink Fected",
     "initOnDeviceReady": true,
     "init": true,
     "iosTranslucentBars": true,
