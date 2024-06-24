@@ -3,14 +3,8 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/7.0.0/workbox
 
 // Precaching assets
 workbox.precaching.precacheAndRoute([
-    { url: '/build.html', revision: '12347' },
-    { url: '/build.js', revision: '12347' },
-    { url: '/manifest.json', revision: '12347'},
     { url: '/favicon.ico', revision: '12347' },
-    { url: '/index.html', revision: '12347' },
-    { url: '/style.css', revision: '12347' },
-    { url: '/script.js', revision: '12347' },
-    { url: '/offline.html', revision: '12347' }
+    { url: '/artifakt.html', revision: '12347' },
 ]);
 
 // Caching strategies
